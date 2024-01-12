@@ -63,10 +63,16 @@ document.write("</br>");
 
 // Write a JavaScript script that creates a string and assigns different characters to individual indices. After the assignment, print or log the resulting string. Observe whether the string changes or not. If it does not change, provide an explanation of why the string remains the same.
 
-let string = ["hello" , 56 , true , {once : "drink" , twice : 78 , thrice : "work"} , undefined]
-console.log(string[4]);
-document.write(string[2]);
-console.log(string[3]);
+var string = "Hello";
+
+ string[0] = "W";
+ string[1] = "o";
+ string[2] = "r";
+ string[3] = "l";
+ string[4] = "d";
+document.write(string);
+document.write("strings immutable hote hain, yani ke ek bar string define hone ke baad unki value badal nahi sakti.")
+console.log(string);
 
 document.write("</br>");
 document.write("</br>");
